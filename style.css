@@ -1,0 +1,57 @@
+body{
+    text-transform: uppercase;
+}
+
+.main-content{
+    padding:10px;
+}
+
+#buttons-view {
+    margin: 10px;
+    background: rgb(141, 189, 167);
+}
+
+.search {
+    padding: 10px;
+    margin: 10px;
+    background: rgb(141, 189, 167);
+}
+
+.gif-view {
+    padding: 10px;
+    margin: 10px;
+    background: rgb(141, 189, 167);
+}
+
+button {
+    margin: 10px;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+}
+
+button:hover {
+    color: rgb(255, 111, 79);
+}
+
+#add-gif{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    margin-top: 200px;
+    margin-bottom: 270px;
+}
+
+#add-gif:hover {
+    color: rgb(255, 111, 79);
+}
+
+img {
+    margin-top: -15px;
+    width: 400px;
+}
+
+.img-div {
+    margin-bottom: 30px;
+}
