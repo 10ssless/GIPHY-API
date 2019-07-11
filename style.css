@@ -1,57 +1,114 @@
 body{
     text-transform: uppercase;
+    background-image: url(images/pong-invert.gif);
+    background-size: 1700px 1000px;
+    background-position-y: -10px;
+    background-position-x: -50px;
+    /* background-repeat: none; */
+    /* filter: invert(1) */
 }
 
 .main-content{
     padding:10px;
+    
 }
 
 #buttons-view {
     margin: 10px;
-    background: rgb(141, 189, 167);
+    /* background: rgb(141, 189, 167); */
+    
 }
 
 .search {
     padding: 10px;
-    margin: 10px;
-    background: rgb(141, 189, 167);
+    margin: 20px 10px 10px 10px;
+    /* background: rgb(141, 189, 167); */
+    
+    
 }
 
 .gif-view {
     padding: 10px;
-    margin: 10px;
-    background: rgb(141, 189, 167);
+    margin: 20px 10px 10px 10px;
+    /* filter: invert(1) */
+    /* background: rgb(141, 189, 167); */
+    overflow: scroll;
+    height: 800px;
 }
 
 button {
     margin: 10px;
-    border: none;
+    border: 1px solid black;
+    border-radius: 20px;
     background: none;
     text-transform: uppercase;
+    transition-property: color,border-color;
+    transition-duration: .3s;
 }
 
 button:hover {
     color: rgb(255, 111, 79);
+    border-color:rgb(255, 111, 79);
 }
 
 #add-gif{
     border: none;
     background: none;
     text-transform: uppercase;
-    letter-spacing: 25px;
-    margin-top: 200px;
-    margin-bottom: 270px;
+    /* letter-spacing: 25px; */
+    margin-top: 250px;
+    /* margin-bottom: 270px; */
+    border: 1px solid black;
+    border-radius: 20px;
+    transition-property: color,border-color;
+    transition-duration: .3s;
+}
+
+#clear-gif{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    /* letter-spacing: 25px; */
+    margin-top: 250px;
+    margin-left:15px;
+    /* margin-bottom: 270px; */
+    border: 1px solid black;
+    border-radius: 20px;
+    transition-property: color,border-color;
+    transition-duration: .3s;
 }
 
 #add-gif:hover {
     color: rgb(255, 111, 79);
+    border-color: rgb(255, 111, 79);
+}
+#clear-gif:hover {
+    color: rgb(255, 111, 79);
+    border-color: rgb(255, 111, 79);
 }
 
 img {
     margin-top: -15px;
-    width: 400px;
+    width: 320px;
+    height: 220px;
 }
 
 .img-div {
-    margin-bottom: 30px;
+    margin: 0px 30px 30px 0px;
+    display: inline-block;
+}
+
+.default-view {
+    color: gray;
+    padding: 10px;
+    margin-top: 270px;
+    margin-left: 400px;
+}
+
+#gif-input {
+    width: 100%;
+    background: none;
+    border:none;
+    border-bottom: 1px solid black;
+    margin-top: 200px;
 }
